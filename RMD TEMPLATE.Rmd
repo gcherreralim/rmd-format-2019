@@ -1,0 +1,132 @@
+---
+title: "Template"
+subtitle: "Class"
+author: "Gabriel Herrera-Lim - `r format(Sys.Date(), '%b %d, %Y')`"
+output:
+  html_document:
+    theme: cerulean
+    highlight: pygments
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    includes:
+      after_body: footer.html
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+<style>
+#TOC {
+  background: url("https://seeklogo.net/wp-content/uploads/2018/10/notre-dame-fighting-irish-logo.png");
+  background-size: 64px 64px;
+  background-position: top center;
+  padding-top: 60px !important;
+  background-repeat: no-repeat;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+  color: #D39F10;
+  background-color: #0C2340;
+  font-family: Avenir Next;
+  font-weight: 600;
+}
+.list-group-item {
+  color: #0C2340;
+  background-color: #D39F10;
+}
+.nav>li>a {
+  position: relative;
+  display: block;
+  color: #D39F10;
+  background-color: white;
+}
+  .nav>li>a:hover {
+    background-color: #D39F10;
+    color: #0C2340;
+  }
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+  color: #D39F10;
+  background-color: #0C2340;
+}
+  .nav-pills > li.active > a:hover {
+    background-color: #D39F10;
+    color: #0C2340;
+  }
+</style>
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 12px;
+      font-family: Avenir Next;
+      color: 0C2340;
+  }
+td {  /* Table  */
+  font-size: 8px;
+}
+h1.title {
+  font-size: 38px;
+  color: #0C2340;
+  font-family: Avenir Next;
+  font-style: bold;
+  font-weight: 800;
+  padding-top: 10px;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+h3.subtitle {
+  font-size: 25px;
+  color: #AE9142;
+  font-family: Avenir Next;
+  font-style: bold;
+  font-weight: 800;
+  text-align: center;
+  margin: 0px;
+}
+h4.author {
+  font-size: 20px;
+  color: #AE9142;
+  font-family: Avenir Next;
+  font-style: bold;
+  font-weight: 500;
+  text-align: center;
+  margin: 0px;
+}
+h2 { /* Header 3 */
+  font-size: 18px;
+  font-family: Avenir Next;
+  color: #0C2340;
+  font-weight: 700;
+}
+code.r{ /* Code block */
+    font-size: 12px;
+    font-family: Avenir Next;
+    color: #AE9142;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 10px;
+    font-family: Avenir Next;
+    color: #AE9142;
+}
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 12px;
+    border-left: 5px solid #AE9142;
+}
+</style>
+
+***
+
+## Part I {.tabset .tabset-fade .tabset-pills}
+
+### **Part I-A**
+
+```{r}
+
+```
+
